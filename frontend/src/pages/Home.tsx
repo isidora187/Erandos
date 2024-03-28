@@ -27,30 +27,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="full-row">
-    <div className="container">
-        <div className="row">
-            <div className="col-lg-4">
-                <h1 className="text-dark mb-0">Our mission is to redefine real estate for the customer's</h1>
-            </div>
-            <div className="col-lg-4">
-                <div className="py-2">
-                    <p>Finderland is one of the world's leading property agents. Our experience spans the globe.</p>
-                    <p>We have been advising on buying, selling and renting property for over 160 years, from country cottages to city centre offices, agricultural land to new-build developments.</p>
-                </div>
-            </div>
-            <div className="col-lg-3 d-flex justify-content-md-end">
-                <ul className="list-style-tick d-flex flex-column my-2">
-                    <li>Only pay when you publish</li>
-                    <li>Full featured event app</li>
-                    <li>Unlimited featured use</li>
-                    <li>24/7 supports</li>
-                    <li>Event analytics</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+ 
   );
 };
 
