@@ -1,8 +1,9 @@
 import { useQuery } from "react-query";
 import * as apiClient from "../api-client";
 import LatestDestinationCard from "../components/LastestDestinationCard";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Home = () => {
   const { data: hotels } = useQuery("fetchQuery", () =>
@@ -45,10 +46,10 @@ const Home = () => {
              <div className="col-lg-3 d-flex justify-content-md-end">
                  <ul className="list-style-tick d-flex flex-column my-2">
                  <li><FontAwesomeIcon icon={faCheckCircle} /> Only pay when you publish</li>
-      <li><FontAwesomeIcon icon={faCheckCircle} /> Full featured event app</li>
-      <li><FontAwesomeIcon icon={faCheckCircle} /> Unlimited featured use</li>
-      <li><FontAwesomeIcon icon={faCheckCircle} /> 24/7 supports</li>
-      <li><FontAwesomeIcon icon={faCheckCircle} /> Event analytics</li>
+              <li><FontAwesomeIcon icon={faCheckCircle} /> Full featured event app</li>
+              <li><FontAwesomeIcon icon={faCheckCircle} /> Unlimited featured use</li>
+              <li><FontAwesomeIcon icon={faCheckCircle} /> 24/7 supports</li>
+              <li><FontAwesomeIcon icon={faCheckCircle} /> Event analytics</li>
                  </ul>
              </div>
          </div>
