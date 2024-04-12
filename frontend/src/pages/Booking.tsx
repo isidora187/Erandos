@@ -10,6 +10,8 @@ import { useAppContext } from "../contexts/AppContext";
 
 const Booking = () => {
   const { stripePromise } = useAppContext();
+  console.log("Stripe Promise: ", stripePromise); // This will log the Stripe promise object or undefined
+
   const search = useSearchContext();
   const { hotelId } = useParams();
 
