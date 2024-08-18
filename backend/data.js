@@ -43,7 +43,7 @@ const data = {
         image: '/images/p4.jpg',
         price: 65,
         countInStock: 5,
-        person: 'Nika',
+        brand: 'Nika',
         rating: 4.5,
         numReviews: 10,
         description: 'high quality product',

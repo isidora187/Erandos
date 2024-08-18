@@ -4,7 +4,7 @@ import data from '../data';
 function HomeScreen() {
   return (
     <div>
-      <h1>Featured Products</h1>
+      <h1>Featured Services</h1>
       <div className="products">
         {data.products.map((product) => (
           <div className="product" key={product.slug}>
@@ -18,7 +18,7 @@ function HomeScreen() {
               <p>
                 <strong>${product.price}</strong>
               </p>
-              <button>Add to cart</button>
+              <button>Order now</button>
             </div>
           </div>
         ))}
