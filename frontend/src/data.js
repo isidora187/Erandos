@@ -1,0 +1,53 @@
+const data = {
+    products: [
+      {
+        name: 'Dog walking',
+        slug: 'dow-walking',
+        category: 'dog-walking',
+        image: '/images/p1.jpg', // 679px × 829px
+        price: 30,
+        countInStock: 10,
+        person: 'joe',
+        rating: 4.5,
+        numReviews: 10,
+        description: 'let us take your furry friends outside ',
+      },
+      {
+        name: 'Courier',
+        slug: 'courier',
+        category: 'courier',
+        image: '/images/p2.jpg',
+        price: 250,
+        countInStock: 20,
+        person: 'Alen',
+        rating: 4.0,
+        numReviews: 10,
+        description: 'let us take your orders',
+      },
+      {
+        name: 'Home cleaning',
+        slug: 'home-cleaning',
+        category: 'home-cleaning',
+        image: '/images/p3.jpg',
+        price: 25,
+        countInStock: 15,
+        person: 'Nik',
+        rating: 4.5,
+        numReviews: 14,
+        description: 'deep cleaning your house for you',
+      },
+      {
+        name: 'Private chef',
+        slug: 'private-chef',
+        category: 'Pants',
+        image: '/images/p4.jpg',
+        price: 65,
+        countInStock: 5,
+        brand: 'Nika',
+        rating: 4.5,
+        numReviews: 10,
+        description: 'high quality product',
+      },
+    ],
+  };
+  export default data;
