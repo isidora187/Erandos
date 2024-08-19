@@ -6,7 +6,7 @@ function App() {
     <BrowserRouter>
     <div>
       <header>
-        <Link to="/">amazona</Link>
+        <Link to="/">Errandos</Link>
       </header>
       <main>
         <Routes>
